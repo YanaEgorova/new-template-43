@@ -1,0 +1,122 @@
+.products__wrapper {
+    background-color: var(--first-brand-color);
+}
+.products {
+    text-align: center;
+    padding: 15rem 0 20rem;
+}
+.sub-title__box {
+    position: relative;
+    margin-bottom: 3rem;
+}
+.prod__title {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    font-family: var(--title-font);
+}
+.success-message {
+    background-color: var(--success);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    margin-bottom: 2rem;
+}
+.success-message--active {
+    opacity: 1;
+    visibility: visible;
+}
+.products .sub-title {
+    margin-bottom: 0;
+    padding-bottom: 7rem;
+}
+.products .item {
+    margin-top: 4.5rem;
+    position: relative;
+}
+.product__block {
+    max-width: 60rem;
+    padding: 0 0 3rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.product {
+    display: block;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.product__text-box {
+    position: relative;
+}
+.product__img-box {
+    padding: 3rem 0;
+}
+.product .img {
+    width: 95%;
+    max-height: 20rem;
+    min-height: 20rem;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.product__name {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    white-space: nowrap;
+}
+.product__price {
+    display: block;
+    font-size: 2rem;
+    font-family: var(--title-font);
+}
+.product__text-box {
+    padding: 3rem 0;
+}
+/* .product__btn {
+    position: absolute;
+    left: 50%;
+    bottom: 3rem;
+    transform: translate(-50%, 0);
+    width: 90%;
+    border-radius: 1rem;
+} */
+@media screen and (min-width: 1024px) {  
+    .products__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .products__list .item {
+        width: 30%;
+        transition: all 0.3s ease-in-out;
+    }
+    .product {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 3rem;
+    }
+    .products__list .item--active {
+        background-color: var(--third-brand-color);
+    }
+    .product__text-box {
+    }
+    .product__btn {
+    }
+}
+
+
