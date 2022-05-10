@@ -4,6 +4,7 @@ export const products = [
         name: 'Face Cover',
         price: 6.96,
         image: './img/img1.png',
+        type: 'ss',
         description: [
             {
                 text: 'Pack of 30.',
@@ -34,6 +35,7 @@ export const products = [
         name: 'Pliers',
         price: 29.99,
         image: './img/img2.png',
+        type: 'trial',
         description: [
             {
                 title: 'Heavy-Duty',
@@ -63,6 +65,7 @@ export const products = [
         name: 'Storage Easel',
         price: 64.90,
         image: './img/img3.png',
+        type: 'ss',
         description: [
             {
                 title: 'Age Range',
@@ -96,6 +99,7 @@ export const products = [
         name: 'Model, Fish',
         price: 98.90,
         image: './img/img4.png',
+        type: 'ss',
         description: [
             {
                 text: 'The basic anatomy of fish including removable parts for much easier examination.',
@@ -114,6 +118,7 @@ export const products = [
         name: 'Mobile Printer',
         price: 119.98,
         image: './img/img5.png',
+        type: 'ss',
         description: [
             {
                 text: 'Prints photos directly from Bluetooth-enabled devices.',
@@ -138,6 +143,7 @@ export const products = [
         name: 'Grooming Table',
         price: 148.00,
         image: './img/img6.png',
+        type: 'ss',
         description: [
             {
                 text: 'These adjustable-height tables are perfect for groomers of all sizes!',
